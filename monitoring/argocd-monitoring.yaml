@@ -3,6 +3,7 @@ kind: Application
 metadata:
   name: monitoring
   namespace: argocd
+
 spec:
   project: default
 
@@ -26,6 +27,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
-
-  syncOptions:
-    - CreateNamespace=true
+    syncOptions:
+      - CreateNamespace=true
