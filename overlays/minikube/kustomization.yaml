@@ -7,44 +7,44 @@ resources:
 images:
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice
     newName: ghcr.io/prithvi-a24/online-boutique-adservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice
     newName: ghcr.io/prithvi-a24/online-boutique-cartservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice
     newName: ghcr.io/prithvi-a24/online-boutique-checkoutservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice
     newName: ghcr.io/prithvi-a24/online-boutique-currencyservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice
     newName: ghcr.io/prithvi-a24/online-boutique-emailservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend
     newName: ghcr.io/prithvi-a24/online-boutique-frontend
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator
     newName: ghcr.io/prithvi-a24/online-boutique-loadgenerator
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice
     newName: ghcr.io/prithvi-a24/online-boutique-paymentservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice
     newName: ghcr.io/prithvi-a24/online-boutique-productcatalogservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice
     newName: ghcr.io/prithvi-a24/online-boutique-recommendationservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice
     newName: ghcr.io/prithvi-a24/online-boutique-shippingservice
-    newTag: c281988e2f8863bd36161d2af37dfce566c8e0b0
+    newTag: 8681b0d51844c1f8a92385a774a9b120478e82df
