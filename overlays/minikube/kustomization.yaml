@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - ../../base
+  - ../../monitoring
 
 images:
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice
