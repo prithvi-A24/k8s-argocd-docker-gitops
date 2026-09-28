@@ -28,7 +28,7 @@ images:
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend
     newName: ghcr.io/prithvi-a24/online-boutique-frontend
-    newTag: dc2e787e767fc5d18e5f9f43cc44abf00a0180a4
+    newTag: 5b6e29908717c85c3ff51f35d28df62650c6971d
 
   - name: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator
     newName: ghcr.io/prithvi-a24/online-boutique-loadgenerator
