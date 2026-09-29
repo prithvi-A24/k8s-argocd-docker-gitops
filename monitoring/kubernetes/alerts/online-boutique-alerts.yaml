@@ -1,0 +1,27 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: online-boutique-alerts
+  namespace: monitoring
+  labels:
+    release: monitoring
+spec:
+  groups:
+    - name: online-boutique
+      rules:
+
+        - alert: OnlineBoutiquePodNotReady
+          expr: |
+            kube_pod_status_ready{
+              namespace="default",
+              condition="true"
+            } == 0
+          for: 5m
+          labels:
+            severity: warning
+            application: online-boutique
+          annotations:
+            summary: "Online Boutique pod is not ready"
+            description: |
+              Pod {{ $labels.pod }} in namespace {{ $labels.namespace }}
+              has not been ready for more than 5 minutes.

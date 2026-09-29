@@ -11,3 +11,7 @@ configMapGenerator:
       disableNameSuffixHash: true
       labels:
         grafana_dashboard: "1"
+
+    resources:
+      - grafana/online-boutique-dashboard.yaml
+      - alerts/online-boutique-alerts.yaml
